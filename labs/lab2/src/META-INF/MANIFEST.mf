@@ -1,0 +1,3 @@
+Manifest-Verion: 1.0
+Main-Class: com.volin.lab.Main
+Class-Path: Pokemon.jar
