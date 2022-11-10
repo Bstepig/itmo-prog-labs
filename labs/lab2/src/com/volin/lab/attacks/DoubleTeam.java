@@ -8,11 +8,6 @@ public class DoubleTeam extends StatusMove {
     }
 
     @Override
-    protected void applyOppEffects(Pokemon pokemon) {
-        Effect.paralyze(pokemon);
-    }
-
-    @Override
     protected void applySelfEffects(Pokemon pokemon) {
         pokemon.setMod(Stat.EVASION, 1);
     }

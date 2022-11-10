@@ -7,12 +7,12 @@ import ru.ifmo.se.pokemon.Pokemon;
 public class Main {
 	public static void main(String[] args) {
 		Battle b = new Battle();
-		Pokemon ally1 = new Raikou();
-		Pokemon ally2 = new Wooper();
-		Pokemon ally3 = new Quagsire();
-		Pokemon foe1 = new Chimchar();
-		Pokemon foe2 = new Monferno();
-		Pokemon foe3 = new Infernape();
+		Pokemon ally1 = new Raikou("Рэйчэл", 1);
+		Pokemon ally2 = new Wooper("Вупсень", 8);
+		Pokemon ally3 = new Quagsire("Козырь", 1);
+		Pokemon foe1 = new Chimchar("Чим Символ", 31);
+		Pokemon foe2 = new Monferno("Монза Феррари", 49);
+		Pokemon foe3 = new Infernape("Верный Эйп", 1);
 		b.addAlly(ally1);
 		b.addAlly(ally2);
 		b.addAlly(ally3);

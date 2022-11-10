@@ -8,8 +8,11 @@ public class StoneEdge extends PhysicalMove {
     }
 
     @Override
-    protected void applySelfEffects(Pokemon pokemon) {
-        pokemon.setMod(Stat.SPECIAL_ATTACK, 1 / 8);
+    protected double calcCriticalHit(Pokemon att, Pokemon def) {
+        if (Math.random() < 0.125) {
+            return 2;
+        }
+        return 1;
     }
 
     @Override
